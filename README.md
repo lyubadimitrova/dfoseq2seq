@@ -1,7 +1,7 @@
 # Bachelor Thesis
 **"Derivative-free Optimization for Sequence-to-Sequence Models"**
 
-Institute of Computational Linguistics
+Institute of Computational Linguistics  
 Heidelberg University, Germany
 
 # Author
@@ -43,37 +43,37 @@ optional arguments:
 
 	|_ dfo.py
 	|    Contains the DFTrainManager class, which configures and runs the training process.
-        |
-        |_ scripts/   
-        |    |_ grad_estimators.py - implementation of the GradEstimator class, which provides implementations
-        |    |                       for the vanilla, forward FD, and antithetic gradient estimators
-        |    |_ helpers.py  - helper functions and dictionaries
-        |    |_ optimizers.py  - implementations of SGD, Momentum-SGD and Adam that work with outside gradients.
-        |    |_ reward_function.py   - the reward function used in my experiments
-        |    |_ __init__.py  
-	|
-	|_ data/
-    	|    Contains training, development, test data and backpropagation checkpoints for the 
-        |    copy, sort and reverse tasks.
-        |
-        |_ joeynmt/
+    |
+    |_ scripts/   
+    |    |_ grad_estimators.py - implementation of the GradEstimator class, which provides implementations
+    |    |                       for the vanilla, forward FD, and antithetic gradient estimators
+    |    |_ helpers.py  - helper functions and dictionaries
+    |    |_ optimizers.py  - implementations of SGD, Momentum-SGD and Adam that work with outside gradients.
+    |    |_ reward_function.py   - the reward function used in my experiments
+    |    |_ __init__.py  
+    |
+    |_ data/
+	|    Contains training, development, test data and backpropagation checkpoints for the 
+    |    copy, sort and reverse tasks.
+    |
+    |_ joeynmt/
 	|    Contains a snapshot of the JoeyNMT framework for easier access.
-        |
-        |_ configs/
-        |    Contains the training configuration files.
-        |    |_ example.yaml - a (non-usable) configuration file with option explanations
-        |    |_ reverse.adam.005.yaml - a (usable) configuration file if you want to run a little test
-        |
-        |_ DFOseq2seqReport.pdf
-        |    My actual thesis.
-        |
+    |
+    |_ configs/
+    |    Contains the training configuration files.
+    |    |_ example.yaml - a (non-usable) configuration file with option explanations
+    |    |_ reverse.adam.005.yaml - a (usable) configuration file if you want to run a little test
+    |
+    |_ DFOseq2seqReport.pdf
+    |    My actual thesis.
+    |
 	|_ README.md
 	|    This file.
 	|
 	|_ LICENSE
 	|
-        |_ requirements.txt
-        |
+    |_ requirements.txt
+    |
 
 
 
