@@ -1,19 +1,19 @@
-# Bachelor Thesis
+## Bachelor Thesis
 **"Derivative-free Optimization for Sequence-to-Sequence Models"**
 
 Institute of Computational Linguistics  
 Heidelberg University, Germany
 
-# Author
+### Author
 Lyuba Dimitrova
-dimitrova@cl.uni-heidelberg.de
+lyuba.dimitrova@abv.bg
 
 
-# Overview
+### Overview
 This repository contains my implementation of derivative-free optimization for seq2seq models. It builds on the [JoeyNMT](https://github.com/joeynmt/joeynmt) framework.
 Code was tested on Python 3.5 and 3.7.
 
-# Usage
+### Usage
 
 Clone the repository.
 Install the requirements with `pip install -r requirements.txt`, preferably in a separate virtualenv or conda environment.
@@ -39,7 +39,7 @@ optional arguments:
 ```
 
 
-# Project structure
+### Project structure
 
 	|_ dfo.py
 	|    Contains the DFTrainManager class, which configures and runs the training process.
@@ -77,18 +77,18 @@ optional arguments:
 
 
 
-# Licenses for used software
+### Licenses for used software
 
 
-#### JoeyNMT
+##### JoeyNMT
 https://github.com/joeynmt/joeynmt/blob/master/LICENSE
 
 
-#### PyTorch 
+##### PyTorch 
 https://github.com/pytorch/pytorch/blob/master/LICENSE
 
 
-#### torchtext
+##### torchtext
 https://github.com/pytorch/text/blob/master/LICENSE
 
 
